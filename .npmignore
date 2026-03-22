@@ -1,0 +1,6 @@
+.github/
+.pi/
+.vscode/
+.idea/
+.DS_Store
+*.log
