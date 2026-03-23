@@ -1,25 +1,17 @@
----
-name: searchxng
-description: Search the web using a local SearchXNG instance for up-to-date information.
----
+# SearchXNG CLI
 
-# SearchXNG Web Search
+A command-line interface for querying a [SearchXNG](https://docs.searxng.org/) instance.
 
-This skill allows you to search the web using a privacy-focused SearchXNG proxy via the `searchxng` CLI tool. 
+## Installation
 
-## Setup
-
-If this package is published to npm, it will install automatically. Otherwise, run:
 ```bash
-cd /path/to/searchxng && npm install -g .
+npm install -g searchxng
 ```
 
 ## Usage
 
-To search the web, use the `searchxng` command:
-
 ```bash
-searchxng "your search query here" --endpoint <url> [options]
+searchxng "your search query here" [options]
 ```
 
 ### Options:

@@ -1,0 +1,37 @@
+{
+  "name": "@chrisbielinski/pi-searchxng",
+  "version": "1.0.0",
+  "description": "Pi package exposing the searchxng CLI as a tool.",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "searchxng",
+    "openclaw"
+  ],
+  "files": [
+    "extensions",
+    "skills",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrisb/searchxng-cli.git",
+    "directory": "packages/pi-extension"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "searchxng": "^1.0.0"
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": "*",
+    "@sinclair/typebox": "*"
+  },
+  "pi": {
+    "extensions": [
+      "./extensions"
+    ],
+    "skills": [
+      "./skills"
+    ]
+  }
+}
